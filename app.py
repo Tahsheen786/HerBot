@@ -156,7 +156,7 @@ def send_email(recipient_emails, subject, message):
             print(f"Error sending email to {clean_email_addr}: {e}")
 
 
-os.environ["API_KEY"] = "AIzaSyDM7YwpW9GwomqqG7OiivqqYqCVWYJT7LA"
+os.environ["API_KEY"] = "YOUR API KEY"
 
 api_key = os.getenv("API_KEY")
 if not api_key:
